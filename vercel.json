@@ -2,12 +2,12 @@
   "redirects": [
     { 
       "source": "/",
-      "destination": "https://pabio.com",
+      "destination": "https://klombo-newsite.vercel.app",
       "permanent": true
     },
     { 
       "source": "/:path*",
-      "destination": "https://pabio.com/:path*",
+      "destination": "https://klombo-newsite.vercel.app/:index.html*",
       "permanent": true
     }
   ]
